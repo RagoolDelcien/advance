@@ -28,7 +28,7 @@ public class Flipkart_Login extends Before_Methods {
 		driver.manage().window().maximize();
 		lp.verify_title(driver.getTitle());
 		Home_Page hp=new Home_Page(driver);
-		hp.SearchForProduct("mobile");
+		hp.SearchForProduct("watches");
 		Product_Page p1=new Product_Page(driver);
 		p1.sortBrands("Fogg");
 		
