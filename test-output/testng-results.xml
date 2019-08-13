@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32451" started-at="2019-08-13T08:15:27Z" finished-at="2019-08-13T08:15:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32451" started-at="2019-08-13T08:15:27Z" finished-at="2019-08-13T08:15:59Z">
+      <class name="Script.Flipkart_Login">
+        <test-method status="PASS" signature="Open_App()[pri:0, instance:Script.Flipkart_Login@73035e27]" name="Open_App" is-config="true" duration-ms="19721" started-at="2019-08-13T13:45:27Z" finished-at="2019-08-13T13:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_App -->
+        <test-method status="PASS" signature="testFlipkart_Login()[pri:0, instance:Script.Flipkart_Login@73035e27]" name="testFlipkart_Login" duration-ms="9643" started-at="2019-08-13T13:45:47Z" finished-at="2019-08-13T13:45:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlipkart_Login -->
+        <test-method status="PASS" signature="Close_App()[pri:0, instance:Script.Flipkart_Login@73035e27]" name="Close_App" is-config="true" duration-ms="3072" started-at="2019-08-13T13:45:56Z" finished-at="2019-08-13T13:45:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_App -->
+      </class> <!-- Script.Flipkart_Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
