@@ -18,24 +18,19 @@ public class Before_Methods implements Constants{
 		System.setProperty(Firefox_Key, Firefox_Value);
 	}
 	
-	@Parameters({"browser"})
+	
 	@BeforeMethod
-	public void Open_App(String browse)
+	public void Open_App()
 	{
 		
-		if(browse.equals("firefox"))
-		{
+		
+		
 			driver=new FirefoxDriver();
 			//driver.get("https://www.gmail.com");
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		}
 		
-		else
-		{
-			driver=new ChromeDriver();
-			//driver.get("https://www.gmail.com");
-			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		}
+		
+		
 		
 		
 	}
